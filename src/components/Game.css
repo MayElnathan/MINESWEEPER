@@ -1,0 +1,90 @@
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(1px); 
+    display: none; 
+    z-index: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gameOverMessage {
+    color: white;
+    font-size: 24px;
+  } */
+
+  /* .controler {
+    display: flex;
+    align-items: center;
+  }
+  
+  .controler label,
+  .controler select {
+    margin-right: 10px;
+  }
+  
+  .controler .time,
+  .controler .bombs {
+    margin-left: auto;
+    color: brown;
+  } */
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    backdrop-filter: blur(1.5px); /* Apply the blur effect */
+    display: none; /* Initially hidden */
+    z-index: 1; /* Ensure it appears on top of the board */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gameOverMessage {
+    color: rgb(246, 139, 139);
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .WinMessage {
+    color: rgb(193, 242, 121);
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .controler{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* padding: 10px 12px; */
+  }
+
+  .controler label{
+    margin: 5px;
+  }
+
+  .controler select {
+    margin-left: 5px;
+  }
+  
+  .controler .time,
+  .controler .bombs {
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgb(88, 202, 225);
+    padding: 10px;
+  } 
+
+  h1{
+    margin-bottom: 10px;
+  }
